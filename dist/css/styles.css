@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/*!
+ /*!
 * Start Bootstrap - Creative v6.0.4 (https://startbootstrap.com/theme/creative)
 * Copyright 2013-2020 Start Bootstrap
 * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-creative/blob/master/LICENSE)
@@ -5918,14 +5918,7 @@ a.close.disabled {
     min-height: calc(100% - 1rem);
 }
 
-.modal-dialog-centered::before {
-    display: block;
-    height: calc(100vh - 1rem);
-    height: -webkit-min-content;
-    height: -moz-min-content;
-    height: min-content;
-    content: "";
-}
+
 
 .modal-dialog-centered.modal-dialog-scrollable {
     flex-direction: column;
@@ -6039,12 +6032,7 @@ a.close.disabled {
         min-height: calc(100% - 3.5rem);
     }
 
-    .modal-dialog-centered::before {
-        height: calc(100vh - 3.5rem);
-        height: -webkit-min-content;
-        height: -moz-min-content;
-        height: min-content;
-    }
+
 
     .modal-sm {
         max-width: 300px;
@@ -10412,6 +10400,9 @@ a.text-dark:hover, a.text-dark:focus {
 
 .text-muted {
     color: #6c757d !important;
+    font-size: medium;
+    font-family: Poppins;
+    font-weight: lighter;
 }
 
 .text-black-50 {
@@ -10423,8 +10414,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .text-hide {
-    font: 0/0 a;
-    color: transparent;
+     color: transparent;
     text-shadow: none;
     background-color: transparent;
     border: 0;
@@ -10556,7 +10546,7 @@ html {
 }
 
 hr.divider {
-    max-width: 3.25rem;
+    max-width: 4rem;
     border-width: 0.1rem;
     border-color: #C8C8C8;
 }
@@ -10719,13 +10709,13 @@ header.masthead p {
     text-align: center;
     opacity: 0;
     color: #fff;
-    background: rgba(244, 98, 58, 0.9);
+    background: rgb(0, 19, 57);
     transition: opacity 0.25s ease;
     text-align: center;
 }
 
 #portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-sm .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-md .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-lg .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-xl .portfolio-box .portfolio-box-caption .project-category {
-    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+font-family: 'Poppins', sans-serif;
     font-size: 0.85rem;
     font-weight: 600;
     text-transform: uppercase;
@@ -10733,6 +10723,8 @@ header.masthead p {
 
 #portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-sm .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-md .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-lg .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-xl .portfolio-box .portfolio-box-caption .project-name {
     font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
 }
 
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption {
@@ -10742,4 +10734,5 @@ header.masthead p {
 .text-white-75 {
     color: #D6D6D6
 }
+
 
