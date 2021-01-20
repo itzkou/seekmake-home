@@ -35,7 +35,19 @@
                 <li class="nav-item"><a class="btn btn-nav   js-scroll-trigger" href="#">Devenez partenaire</a></li>
                 <li class="nav-item"><a class="btn btn-nav   js-scroll-trigger" href="#">Demander un devis
                     gratuitement</a></li>
-                <li class="nav-item"><img src="assets/img/ic_profile.png" alt="" width="34px" height="34px"/></li>
+                <li class="nav-item"><img
+                    style="width: auto; height: auto;display: block;max-width:50px;max-height:50px;"
+                    src="assets/img/ic_profile.png" alt="" class="nav-link dropdown-toggle" href="#" id="userMenu"
+                    data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false"/>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userMenu">
+                        <a class="dropdown-item" href="#">Connexion</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">
+                            Inscription</a>
+                    </div>
+                </li>
+
             </ul>
         </div>
 
@@ -60,88 +72,92 @@
             </div>
         </div>
     </div>
+
 </header>
 <!-- About-->
-<section class="page-section bg-primary" id="about">
-    <div class="container">
+
+<section class="page-section bg-primary " id="about">
+    <div class="container ">
         <div class="row justify-content-center">
             <div class="col-lg-8 text-center">
                 <h2 class="text-white mt-0">Nos capacités de fabrication
                 </h2>
 
 
-
-
-
-
             </div>
         </div>
-        <div class="row">
+        <div class="row" style="margin: 32px;">
             <div class="col-sm-4">
                 <div class="cardo   text-center">
                     <div class="title">
-                        <i class="fa fa-paper-plane" aria-hidden="true"></i>
-                        <h2>Basic</h2>
+                        <img  class="card-img-top" src="assets/img/ic_cnc.png" alt=""/>
                     </div>
-                    <div class="price">
-                        <h4><sup>$</sup>25</h4>
+                    <div >
+                        <h4>Usinage CNC</h4>
                     </div>
-                    <div class="option">
+                    <div >
+                        <img style="width: 36px;height: 36px;margin: 16px;" class="img-fluid" src="assets/img/ic_infos.png" alt=""/>
+
                         <ul>
-                            <li><i class="fa fa-check" aria-hidden="true"></i>10 GB Space</li>
-                            <li><i class="fa fa-check" aria-hidden="true"></i>3 Domain Names</li>
-                            <li><i class="fa fa-check" aria-hidden="true"></i>20 Emails Addresse</li>
-                            <li><i class="fa fa-times" aria-hidden="true"></i>Live Support</li>
+                            <li class=" text-md-left " style="font-family: 'Poppins', sans-serif;font-weight: lighter;">Fraisage ( 5 axes )
+                            </li>
+                            <li class=" text-md-left " style="font-family: 'Poppins', sans-serif;font-weight: lighter;">Tournage</li>
+
                         </ul>
                     </div>
-                    <a href="#">Order Now</a>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="cardo  text-center">
-                    <div class="title">
-                        <i class="fa fa-plane" aria-hidden="true"></i>
-                        <h2>Premium</h2>
-                    </div>
-                    <div class="price">
-                        <h4><sup>$</sup>25</h4>
-                    </div>
-                    <div class="option">
-                        <ul>
-                            <li><i class="fa fa-check" aria-hidden="true"></i>10 GB Space</li>
-                            <li><i class="fa fa-check" aria-hidden="true"></i>3 Domain Names</li>
-                            <li><i class="fa fa-check" aria-hidden="true"></i>20 Emails Addresse</li>
-                            <li><i class="fa fa-times" aria-hidden="true"></i>Live Support</li>
-                        </ul>
-                    </div>
-                    <a href="#">Order Now</a>
                 </div>
             </div>
             <div class="col-sm-4">
                 <div class="cardo   text-center">
                     <div class="title">
-                        <i class="fa fa-rocket" aria-hidden="true"></i>
-                        <h2>Standart</h2>
+                        <img  class="card-img-top" src="assets/img/ic_3d.png" alt=""/>
                     </div>
-                    <div class="price">
-                        <h4><sup>$</sup>50</h4>
+                    <div style="margin-top: 28px;" >
+                        <h4>Impression 3D</h4>
                     </div>
-                    <div class="option">
+                    <div  >
+                        <img style="width: 36px;height: 36px;margin: 16px;" class="img-fluid" src="assets/img/ic_infos.png" alt=""/>
+
                         <ul>
-                            <li><i class="fa fa-check" aria-hidden="true"></i>50 GB Space</li>
-                            <li><i class="fa fa-check" aria-hidden="true"></i>5 Domain Names</li>
-                            <li><i class="fa fa-check" aria-hidden="true"></i>20 Emails Addresse</li>
-                            <li><i class="fa fa-times" aria-hidden="true"></i>Live Support</li>
+                            <li class=" text-md-left " style="font-family: 'Poppins', sans-serif;font-weight: lighter;">FDM
+                            </li>
+                            <li class=" text-md-left " style="font-family: 'Poppins', sans-serif;font-weight: lighter;">SLS/SLA
+                            </li>
+
                         </ul>
                     </div>
-                    <a href="#">Order Now</a>
+                 </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="cardo   text-center">
+                    <div class="title">
+                        <img  class="card-img-top " style="height: 170px;" src="assets/img/ic_tol.png" alt=""/>
+                    </div>
+                    <div  >
+                        <h4 style="margin-top: 20px;">Tôlerie</h4>
+                    </div>
+                    <div  >
+                        <img style="width: 36px;height: 36px;margin: 16px;" class="img-fluid"  src="assets/img/ic_infos.png" alt=""/>
+
+                        <ul>
+                            <li class=" text-md-left " style="font-family: 'Poppins', sans-serif;font-weight: lighter;">Découpe laser
+
+                            </li>
+                            <li class=" text-md-left " style="font-family: 'Poppins', sans-serif;font-weight: lighter;">Pliage
+                            </li>
+
+                        </ul>
+                    </div>
                 </div>
             </div>
+
+
         </div>
-        <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a>
+        <center><a  class="btn btn-light btn-xl js-scroll-trigger text-center " href="#">Demander un devis gratuitement</a></center>
     </div>
-
 </section>
+
+
 <!-- Services-->
 <section class="page-section" id="services">
     <div class="container">

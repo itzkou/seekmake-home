@@ -85,6 +85,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0.5rem;
 }
 
+
 p {
     margin-top: 0;
     margin-bottom: 1rem;
@@ -364,7 +365,7 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
     margin-bottom: 0.5rem;
-    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: 'Poppins', sans-serif;
     font-weight: 500;
     line-height: 1.2;
 }
@@ -2551,12 +2552,15 @@ fieldset:disabled a.btn {
     border-color: white;
 }
 
-.btn-grad {background-image: linear-gradient(to right, #009cff 0%, #00ceed 51%, #009cff 100%)}
 .btn-grad {
-     margin: 10px;
-    padding: 10px ;
+    background-image: linear-gradient(to right, #009cff 0%, #00ceed 51%, #009cff 100%)
+}
+
+.btn-grad {
+    margin: 10px;
+    padding: 10px;
     text-align: center;
-     transition: 0.5s;
+    transition: 0.5s;
     background-size: 200% auto;
     color: white;
 
@@ -4637,19 +4641,21 @@ input[type=button].btn-block {
 }
 
 .cardo {
+    margin: 16px;
     background-color: white;
     position: relative;
-    min-width: 250px;
+    width: 250px;
     height: auto;
     overflow: hidden;
     border-radius: 15px;
     margin: 0 auto;
     padding: 40px 20px;
-    box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
     transition: .5s;
 }
+
 .cardo:hover {
-    transform:scale(1.1);
+    transform: scale(1.01);
 }
 
 .card {
@@ -4765,7 +4771,7 @@ input[type=button].btn-block {
 .card-img-top,
 .card-img-bottom {
     flex-shrink: 0;
-    width: 100%;
+    width: 90%;
 }
 
 .card-img,
@@ -6611,7 +6617,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-    background-color: #f4623a !important;
+    background-color: #010510 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -10566,11 +10572,11 @@ hr.light {
 }
 
 .btn-xl {
-    padding: 1.25rem 2.25rem;
-    font-size: 0.85rem;
+
+    padding: 12px 12px;
+    font-size: medium;
     font-weight: 700;
-    text-transform: uppercase;
-    border: none;
+     border: none;
     border-radius: 12px;
 }
 
@@ -10656,15 +10662,20 @@ header.masthead {
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
+
+
 }
+
 
 header.masthead h1 {
     font-size: 2.25rem;
     font-family: 'Poppins', sans-serif;
 }
-header.masthead p{
+
+header.masthead p {
     font-family: 'Poppins', sans-serif;
 }
+
 @media (min-width: 992px) {
     header.masthead {
         height: 100vh;
@@ -10732,3 +10743,4 @@ header.masthead p{
 .text-white-75 {
     color: #D6D6D6
 }
+
